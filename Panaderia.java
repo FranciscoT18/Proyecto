@@ -14,7 +14,7 @@ public class Panaderia {
     private String sucursales;
 
     private String redessociales;
-    
+
     //Métodos
 
     public void solicitarDirección(){
@@ -35,35 +35,35 @@ public class Panaderia {
 
     //Getter y setter
 
-    public int getteridPedidos(){
+    public int getidPedidos(){
         return idPanaderia;
     }
 
-    public void setteridPedidos(int idPanaderia){
+    public void setidPedidos(int idPanaderia){
         this.idPanaderia = idPanaderia;
     }
 
-    public String getterNombre(){
+    public String getNombre(){
         return nombre;
     }
 
-    public void setterNombre(String nombre){
+    public void setNombre(String nombre){
         this.nombre = nombre;
     }
 
-    public String getterDirección(String dirección){
+    public String getDirección(String dirección){
         return dirección;
     }
 
-    public void setterCorreo(String correo){
+    public void setCorreo(String correo){
         this.correo = correo;
     }
 
-    public String getterTelefono(){
+    public String getTelefono(){
         return telefono;
     }
 
-    public void setterTelefono(String telefono){
+    public void setTelefono(String telefono){
         this.telefono = telefono;
     }
 
