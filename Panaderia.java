@@ -22,7 +22,7 @@ public class Panaderia {
     }
 
     public void agregarPaginaweb(){
-        System.out.println("Agregar el correo de la panaderia" + this.paginaweb);
+        System.out.println("Agregar la pagina web de la panaderia" + this.paginaweb);
     }
 
     public void agregarNombre(){
