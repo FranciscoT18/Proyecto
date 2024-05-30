@@ -7,7 +7,7 @@ public class Panaderia {
 
     private String direccion;
 
-    private String correo;
+    private String paginaweb;
     
     private String telefono;
 
@@ -21,8 +21,8 @@ public class Panaderia {
         System.out.println("Solicitar la direccion de la panaderia" + this.direccion);
     }
 
-    public void agregarCorreo(){
-        System.out.println("Agregar el correo de la panaderia" + this.correo);
+    public void agregarPaginaweb(){
+        System.out.println("Agregar el correo de la panaderia" + this.paginaweb);
     }
 
     public void agregarNombre(){
@@ -55,8 +55,8 @@ public class Panaderia {
         return dirección;
     }
 
-    public void setCorreo(String correo){
-        this.correo = correo;
+    public void setPaginaweb(String paginaweb){
+        this.paginaweb = paginaweb;
     }
 
     public String getTelefono(){
@@ -84,12 +84,14 @@ public class Panaderia {
     }
 
     //Constructor
-    
-    public Panaderia(int idPanaderia, String nombre, String dirección, String telefono, String correo){
+
+    public Panaderia(int idPanaderia, String nombre, String direccion, String paginaweb, String telefono, String sucursales, String redessociales) {
         this.idPanaderia = idPanaderia;
         this.nombre = nombre;
-        this.direccion= dirección;
+        this.direccion = direccion;
+        this.paginaweb = paginaweb;
         this.telefono = telefono;
-        this.correo = correo;
-    }
+        this.sucursales = sucursales;
+        this.redessociales = redessociales;
+}
 }
