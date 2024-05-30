@@ -23,15 +23,15 @@ public class Pedidos {
     public void Solicitar(){
         this.estado = "Solicitado";
 
-        System.out.println("El pedido a sido solicitado" + idPedidos);
+        System.out.println("El pedido a sido solicitado" + " " + idPedidos);
     }
 
     public void cancelarPedido(){
-        System.out.println("Ingresar la fecha del pedido" + fecha);
+        System.out.println("Ingresar la fecha del pedido" + " " + fecha);
     }
 
     public double calcularTotal(){
-        System.out.println("Calcular el total de los pedidos" + total);
+        System.out.println("Calcular el total de los pedidos" + " " + total);
 
         return this.total;
     }
@@ -39,7 +39,7 @@ public class Pedidos {
     public void cambiarEstado(){
         this.estado = "Procesado";
 
-        System.out.println("Cambiar el estado del pedido" + estado);
+        System.out.println("Cambiar el estado del pedido" + " " + estado);
     }
 
     //Geter y Setter

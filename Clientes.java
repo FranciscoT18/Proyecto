@@ -1,5 +1,3 @@
-
-
 public class Clientes {
 
     //Atributos
@@ -21,15 +19,15 @@ public class Clientes {
     //Métodos
 
     public void agregarPedido(){
-        System.out.println("Se ha agregado el pedido");
+        System.out.println("Se ha agregado el pedido" + " " + this.ordendelpedido);
     }
 
     public void elimiarPedido(){
-        System.out.println("Se ha elimino el pedido");
+        System.out.println("Se ha elimino el pedido" + " " + this.ordendelpedido);
     }
 
     public void actualizarDatos(){
-        System.out.println("Actualizar el pedido");
+        System.out.println("Actualizar el pedido" + " " + this.ordendelpedido);
     }
 
     public void verHistorial(){
@@ -104,5 +102,5 @@ public class Clientes {
         this.correo = correo;
         this.edad = edad;
         this.ordendelpedido = ordendelpedido;
-}
+    }
 }

@@ -26,11 +26,11 @@ public class Panaderia {
     }
 
     public void agregarNombre(){
-        System.out.println("Agregar el nombre de la panaderia");
+        System.out.println("Agregar el nombre de la panaderia" + " " + this.nombre);
     }
 
     public void agregarTelefono(){
-        System.out.println("Agregar telefono");
+        System.out.println("Agregar telefono" + " " + this.telefono);
     }
 
     //Getter y setter
@@ -93,5 +93,5 @@ public class Panaderia {
         this.telefono = telefono;
         this.sucursales = sucursales;
         this.redessociales = redessociales;
-}
+    }
 }
