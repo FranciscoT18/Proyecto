@@ -36,7 +36,7 @@ public class Panaderia {
     //Getter y setter
 
     public int getidPedidos(){
-        return idPanaderia;
+        return idPanaderia; 
     }
 
     public void setidPedidos(int idPanaderia){

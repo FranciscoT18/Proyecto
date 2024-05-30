@@ -4,7 +4,7 @@ public class Main {
     
         Pedidos pedidos = new Pedidos(1, new Date(), 50, "En camino", "Entregado", "Sauses 8", "Todos");
 
-        pedidos.Solicitar();
+        pedidos.Solicitar(); 
 
         pedidos.cancelarPedido();
 

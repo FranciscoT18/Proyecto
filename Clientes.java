@@ -19,15 +19,15 @@ public class Clientes {
     //Métodos
 
     public void agregarPedido(){
-        System.out.println("Se ha agregado el pedido" + " " + this.ordendelpedido);
+        System.out.println("Se ha agregado el pedido");
     }
 
     public void elimiarPedido(){
-        System.out.println("Se ha elimino el pedido" + " " + this.ordendelpedido);
+        System.out.println("Se ha elimino el pedido");
     }
 
     public void actualizarDatos(){
-        System.out.println("Actualizar el pedido" + " " + this.ordendelpedido);
+        System.out.println("Actualizar el pedido");
     }
 
     public void verHistorial(){
@@ -73,7 +73,7 @@ public class Clientes {
     }
 
     public void setCorreo(String correo) {
-        this.correo = correo;
+        this.correo = correo; 
     }
 
     public int getEdad() {

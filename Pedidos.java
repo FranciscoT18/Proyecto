@@ -23,7 +23,7 @@ public class Pedidos {
     public void Solicitar(){
         this.estado = "Solicitado";
 
-        System.out.println("El pedido a sido solicitado" + " " + idPedidos);
+        System.out.println("El pedido a sido solicitado");
     }
 
     public void cancelarPedido(){
