@@ -2,7 +2,7 @@ public class Transporte {
 
     //Atributos
 
-    private int idTransporte;
+    private int idTransporte; 
 
     private String ruta;
 

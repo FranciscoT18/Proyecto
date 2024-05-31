@@ -30,6 +30,12 @@ public class Main {
 
         transporte.getApellidodelconductor();
 
-        transporte.agregarNumerodelaunidad();
+        transporte.agregarNumerodelaunidad(); 
+
+        Productos productos = new Productos(3, "Pan", "Pan de dulce", 0.15, "Harina", "100% natural", "100 unidades");
+
+        productos.calcularelpreciodelproducto();
+
+        productos.agregarcalidaddelproducto();
     }
 }

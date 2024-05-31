@@ -2,7 +2,7 @@ public class Servicios {
 
     //Atributos
 
-    private int idServicios;
+    private int idServicios; 
 
     private String nombredelservicio;
 

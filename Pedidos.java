@@ -38,7 +38,7 @@ public class Pedidos {
 
     public void cambiarEstado(){
         this.estado = "Procesado";
-
+ 
         System.out.println("Cambiar el estado del pedido" + " " + estado);
     }
 

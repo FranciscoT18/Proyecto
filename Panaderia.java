@@ -1,7 +1,7 @@
 public class Panaderia {
     //Atributos
     
-    private int idPanaderia;
+    private int idPanaderia; 
 
     private String nombre;
 
