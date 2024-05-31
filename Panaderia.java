@@ -13,7 +13,7 @@ public class Panaderia {
 
     private String sucursales;
 
-    private String redessociales;
+    private String redessociales; 
 
     //Métodos
 

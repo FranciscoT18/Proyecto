@@ -20,5 +20,16 @@ public class Main {
 
         clientes.actualizarDatos();
 
+        Servicios servicios = new Servicios(2, "Domicilio", "Urbanizacion Santiago", "Cumpleaños", "Pastel de futbol", "Pastel Vegetariano", "Avena");
+
+        servicios.agendarelevento();
+
+        servicios.agregarNombredelservicio();
+
+        Transporte transporte = new Transporte(2, "Samanes a Alborada", 34, " Gustavo", "Hernandez", "0992392000", "gustavoriverahdez@hotmail.com");
+
+        transporte.getApellidodelconductor();
+
+        transporte.agregarNumerodelaunidad();
     }
 }

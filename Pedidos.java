@@ -31,7 +31,7 @@ public class Pedidos {
     }
 
     public double calcularTotal(){
-        System.out.println("Calcular el total de los pedidos" + " " + total);
+        System.out.println("Calcular el total de los pedidos" + " " + total); 
 
         return this.total;
     }

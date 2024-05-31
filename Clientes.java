@@ -14,7 +14,7 @@ public class Clientes {
 
     private int edad;
 
-    private int ordendelpedido;
+    private int ordendelpedido; 
 
     //Métodos
 
